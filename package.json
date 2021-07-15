@@ -1,0 +1,31 @@
+{
+  "name": "clone-airbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "watch": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mamadou9094/Clone-airbnb.git"
+  },
+  "author": "Mamadou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mamadou9094/Clone-airbnb/issues"
+  },
+  "homepage": "https://github.com/Mamadou9094/Clone-airbnb#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
